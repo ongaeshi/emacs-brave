@@ -1,0 +1,12 @@
+*.elc
+*~
+.DS_Store
+.recentf
+/auto-save-list
+/elpa/archives
+/server
+/tramp
+/url
+/var
+ac-comphist.dat
+anything-c-adaptive-history
