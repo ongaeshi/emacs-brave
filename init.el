@@ -6,7 +6,7 @@
 ;;------------------------------------------------------------------------------
 ;; load-path
 ;;------------------------------------------------------------------------------
-(add-to-list 'load-path "~/.emacs.d/site-lisp")
+(add-to-list 'load-path "~/.emacs.d/site-lisp") ;; 相対パス化したい
 ;; (require 'platform-p)
 
 ;;------------------------------------------------------------------------------
@@ -17,24 +17,9 @@
 (package-initialize)
 
 ;;------------------------------------------------------------------------------
-;; Basic Settings
+;; init-loader
 ;;------------------------------------------------------------------------------
-(setq require-final-newline nil)
-(setq make-backup-files nil)
-(setq truncate-partial-width-windows t)
-(tool-bar-mode 0)
-(setq line-number-mode t)
-(setq column-number-mode t)
-(setq-default case-fold-search t)
-(show-paren-mode t)
-(setq dabbrev-case-replace nil)
-(ffap-bindings)
-(setq transient-mark-mode t)
-(setq set-mark-command-repeat-pop t)
+(require 'init-loader)
+;; (setq init-loader-show-log-after-init nil)
+(init-loader-load "~/Documents/emacs-brave/inits") ;; To relative path, later.
 
-;;------------------------------------------------------------------------------
-;; Recommended Settings
-;;------------------------------------------------------------------------------
-;; comment!
-;; (put 'narrow-to-region 'disabled nil)
-;; (setq ring-bell-function 'ignore)
