@@ -6,8 +6,7 @@
 ;;------------------------------------------------------------------------------
 ;; load-path
 ;;------------------------------------------------------------------------------
-(add-to-list 'load-path "~/.emacs.d/site-lisp") ;; 相対パス化したい
-;; (require 'platform-p)
+(add-to-list 'load-path (locate-user-emacs-file "site-lisp"))
 
 ;;------------------------------------------------------------------------------
 ;; package.el
@@ -21,5 +20,5 @@
 ;;------------------------------------------------------------------------------
 (require 'init-loader)
 ;; (setq init-loader-show-log-after-init nil)
-(init-loader-load "~/Documents/emacs-brave/inits") ;; To relative path, later.
+(init-loader-load (locate-user-emacs-file "inits"))
 
