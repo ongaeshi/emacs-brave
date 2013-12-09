@@ -26,6 +26,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - auto-complete
 - init-loader
 - popup
+- smartparens
 
 ## TODO
 - recentf
@@ -48,7 +49,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - multiple-cursors & smartrep
 - coffee-mode
 - ace-jump-mode
-- smartparens
 - yasnippet
 - quickrun
 

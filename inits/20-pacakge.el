@@ -20,3 +20,14 @@
 (add-to-list 'ac-dictionary-directories (concat user-emacs-directory "/" "ac-dict"))
 (ac-config-default)
 (global-auto-complete-mode t)
+
+;;--------------------------------------------------------------------------
+;; smartparens
+;;--------------------------------------------------------------------------
+;; #259 Symbol's function definition is void: cl-flet
+;; https://github.com/Fuco1/smartparens/issues/259
+(unless (fboundp 'cl-flet)
+  (defalias 'cl-flet 'flet))
+
+(require 'smartparens-config)
+(smartparens-global-mode 1)
