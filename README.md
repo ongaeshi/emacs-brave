@@ -8,8 +8,17 @@ Modern emacs distribution.
 ## Install
 ```
 $ git clone https://github.com/ongaeshi/emacs-brave.git
+```
+
+## Run
+```
 $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l init.el
+```
+
+```
+$ cd emacs-brave
+$ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ```
 
 ## Packages
