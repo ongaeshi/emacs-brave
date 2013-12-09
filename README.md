@@ -14,7 +14,9 @@ $ emacs -Q -l set-user-emacs-directory.el -l init.el
 
 ## Packages
 - anzu
+- auto-complete
 - init-loader
+- popup
 
 ## TODO
 - recentf
@@ -35,7 +37,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l init.el
 - highlight-symbol & smartrep
 - markdown-mode
 - multiple-cursors & smartrep
-- auto-complete
 - coffee-mode
 - ace-jump-mode
 - smartparens
