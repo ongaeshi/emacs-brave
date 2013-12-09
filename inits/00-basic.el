@@ -15,6 +15,7 @@
 (setq set-mark-command-repeat-pop t)
 (setq-default indent-tabs-mode nil) ;; Use spaces instead of tabs
 (setq indent-line-function 'indent-relative-maybe)
+(load-theme 'misterioso)
 
 ;;------------------------------------------------------------------------------
 ;; Key Bindings
