@@ -1,6 +1,7 @@
 # emacs-brave
 
 Modern Emacs distribution.
+
 It can be run in parallel with your `~/.emacs.d`.
 
 ## Test Emacs
@@ -53,9 +54,11 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - quickrun
 
 ## Keybind
-### global-map
+```
+'global-map'
 C-; other-window-or-split
 C-, helm-mini
 
-### dired-mode
-r wdired-change-to-wdired-mode
+'dired-mode'
+r   wdired-change-to-wdired-mode
+```
