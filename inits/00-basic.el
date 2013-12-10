@@ -17,6 +17,13 @@
 (setq indent-line-function 'indent-relative-maybe)
 (load-theme 'misterioso)
 
+;; http://d.hatena.ne.jp/rubikitch/20100210/emacs
+(defun other-window-or-split ()
+  (interactive)
+  (when (one-window-p)
+    (split-window-horizontally))
+  (other-window 1))
+
 ;;------------------------------------------------------------------------------
 ;; Key Bindings
 ;;------------------------------------------------------------------------------
@@ -25,7 +32,7 @@
 (global-set-key (kbd "M-g")   'grep)
 (global-set-key (kbd "M-o")   'next-error)
 (global-set-key (kbd "C-c g") 'goto-line)
-(global-set-key (kbd "C-;")   'other-window)
+(global-set-key (kbd "C-;")   'other-window-or-split)
 (global-set-key (kbd "C-.")   'ff-find-other-file)
 (global-set-key (kbd "C-C r") 'revert-buffer)
 
