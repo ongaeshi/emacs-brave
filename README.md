@@ -1,9 +1,11 @@
 # emacs-brave
 
-Modern emacs distribution.
+Modern Emacs distribution.
+It can be run in parallel with your `~/.emacs.d`.
 
-## Emacs
+## Test Emacs
 - Cocoa Emacs 24.3
+- gnupack emacs-24.3-20130503.exe
 
 ## Install
 ```
