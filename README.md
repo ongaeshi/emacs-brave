@@ -28,19 +28,17 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - init-loader
 - popup
 - smartparens
+- wgrep
 
 ## TODO
-- recentf
 - color-moccur
 - moccur-edit
-- wgrep
 - open-junk-file
 - popwin
 - js3-mode
 - haml-mode
 - sass-mode
 - scss-mode
-- wdired
 - yaml-mode
 - magit
 - smartrep
@@ -53,5 +51,9 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - quickrun
 
 ## Keybind
-C-; other-window
+### global-map
+C-; other-window-or-split
 C-, helm-mini
+
+### dired-mode
+r wdired-change-to-wdired-mode
