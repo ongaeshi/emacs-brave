@@ -3,7 +3,7 @@
 Modern emacs distribution.
 
 ## Emacs
-- Cocoa Emacs 24.2.1
+- Cocoa Emacs 24.3
 
 ## Install
 ```
@@ -24,6 +24,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## Packages
 - anzu
 - auto-complete
+- helm
 - init-loader
 - popup
 - smartparens
@@ -31,7 +32,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## TODO
 - recentf
 - color-moccur
-- helm
 - moccur-edit
 - wgrep
 - open-junk-file
@@ -52,3 +52,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - yasnippet
 - quickrun
 
+## Keybind
+C-; other-window
+C-, helm-mini

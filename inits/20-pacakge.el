@@ -1,4 +1,16 @@
 ;;------------------------------------------------------------------------------
+;; helm
+;;------------------------------------------------------------------------------
+(require 'helm-config)
+
+(global-set-key (kbd "C-,") 'helm-mini)
+
+(helm-mode 1)
+;; Function that doesn't use helm
+(add-to-list 'helm-completing-read-handlers-alist '(find-file-at-point))
+(add-to-list 'helm-completing-read-handlers-alist '(write-file . nil))
+
+;;------------------------------------------------------------------------------
 ;; anzu
 ;;------------------------------------------------------------------------------
 (require 'anzu)
