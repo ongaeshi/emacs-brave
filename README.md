@@ -36,7 +36,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## TODO
 - color-moccur
 - moccur-edit
-- open-junk-file
 - popwin
 - js3-mode
 - haml-mode
@@ -53,12 +52,13 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - yasnippet
 - quickrun
 
-## Keybind
+## Customize Key
 ```
 'global-map'
-C-; other-window-or-split
-C-, helm-mini
+C-;   other-window-or-split
+C-,   helm-mini
+C-x j open-junk-file
 
 'dired-mode'
-r   wdired-change-to-wdired-mode
+r     wdired-change-to-wdired-mode
 ```
