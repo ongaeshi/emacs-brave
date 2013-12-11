@@ -33,6 +33,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## Packages
 - anzu
 - auto-complete
+- coffee-mode
 - haml-mode
 - helm
 - highlight-symbol
@@ -46,6 +47,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - scss-mode
 - smartparens
 - smartrep
+- vim-region
 - wgrep
 - yaml-mode
 
@@ -54,18 +56,18 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - moccur-edit
 - magit
 - multiple-cursors & smartrep
-- coffee-mode
 - ace-jump-mode
 - yasnippet
 - quickrun
-- vim-region
 
 ## Customize Key
 ```
 'global-map'
 C-,   helm-mini
 C-;   other-window-or-split
+C-@   vim-region
 C-x j open-junk-file
+
 M-s   highlight-symbol (smartrep)
         M-s   highlight-symbol-next
         h     highlight-symbol-at-point

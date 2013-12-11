@@ -84,3 +84,9 @@
     ("j"          . 'highlight-symbol-next-in-defun)
     ("k"          . 'highlight-symbol-prev-in-defun)
     ("r"          . 'highlight-symbol-query-replace)))
+
+;;--------------------------------------------------------------------------
+;; vim-region
+;;--------------------------------------------------------------------------
+(require 'vim-region)
+(global-set-key (kbd "C-@") 'vim-region-mode)
