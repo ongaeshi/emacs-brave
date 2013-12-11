@@ -33,22 +33,22 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## Packages
 - anzu
 - auto-complete
+- haml-mode
 - helm
 - init-loader
+- js3-mode
 - open-junk-file
 - popup
+- sass-mode
+- scss-mode
 - smartparens
 - wgrep
+- yaml-mode
 
 ## TODO
 - color-moccur
 - moccur-edit
 - popwin
-- js3-mode
-- haml-mode
-- sass-mode
-- scss-mode
-- yaml-mode
 - magit
 - smartrep
 - highlight-symbol & smartrep
