@@ -39,6 +39,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - js3-mode
 - open-junk-file
 - popup
+- popwin
 - sass-mode
 - scss-mode
 - smartparens
@@ -48,7 +49,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## TODO
 - color-moccur
 - moccur-edit
-- popwin
 - magit
 - smartrep
 - highlight-symbol & smartrep
