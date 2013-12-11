@@ -7,8 +7,8 @@ Modern Emacs distribution.
 It can be run in parallel with your `~/.emacs.d`.
 
 ## Test Emacs
-- Cocoa Emacs 24.3
-- gnupack emacs-24.3-20130503.exe
+- [Mac] Cocoa Emacs 24.3
+- [Win] gnupack emacs-24.3-20130503
 
 ## Install
 ```
@@ -21,8 +21,7 @@ $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l init.el
 ```
 
-For M-x pacakge-install.
-
+## M-x pacakge-install
 ```
 $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
@@ -55,14 +54,14 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - color-moccur
 - moccur-edit
 - magit
-- multiple-cursors & smartrep
+- multiple-cursors
 - ace-jump-mode
 - yasnippet
 - quickrun
 
 ## Customize Key
+### global-map
 ```
-'global-map'
 C-,   helm-mini
 C-;   other-window-or-split
 C-@   vim-region
@@ -80,7 +79,9 @@ M-s   highlight-symbol (smartrep)
         j     highlight-symbol-next-in-defun
         k     highlight-symbol-prev-in-defun
         r     highlight-symbol-query-replace
+```
 
-'dired-mode'
+### dired-mode
+```
 r     wdired-change-to-wdired-mode
 ```
