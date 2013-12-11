@@ -1,4 +1,9 @@
 ;;--------------------------------------------------------------------------
+;; smartrep
+;;--------------------------------------------------------------------------
+(require 'smartrep)
+
+;;--------------------------------------------------------------------------
 ;; popwin
 ;;--------------------------------------------------------------------------
 (require 'popwin)
@@ -60,3 +65,22 @@
 ;; (setq open-junk-file-format "~/Documents/junk/%Y-%m%d-%H%M%S.")
 (global-set-key "\C-xj" 'open-junk-file)
 
+;;--------------------------------------------------------------------------
+;;highlight-symbol
+;;--------------------------------------------------------------------------
+(require 'highlight-symbol)
+
+(global-unset-key (kbd "M-s"))
+
+(smartrep-define-key global-map "M-s"
+  '(("M-s"        . 'highlight-symbol-next)
+    ("h"          . 'highlight-symbol-at-point)
+    ("n"          . 'highlight-symbol-next)
+    ("p"          . 'highlight-symbol-prev)
+    ("N"          . 'highlight-symbol-prev)
+    ("l"          . 'highlight-symbol-list-all)
+    ("a"          . 'highlight-symbol-remove-all)
+    ("o"          . 'highlight-symbol-occur)
+    ("j"          . 'highlight-symbol-next-in-defun)
+    ("k"          . 'highlight-symbol-prev-in-defun)
+    ("r"          . 'highlight-symbol-query-replace)))

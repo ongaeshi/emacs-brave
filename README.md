@@ -35,6 +35,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - auto-complete
 - haml-mode
 - helm
+- highlight-symbol
 - init-loader
 - js3-mode
 - open-junk-file
@@ -43,6 +44,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - sass-mode
 - scss-mode
 - smartparens
+- smartrep
 - wgrep
 - yaml-mode
 
@@ -50,21 +52,32 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - color-moccur
 - moccur-edit
 - magit
-- smartrep
-- highlight-symbol & smartrep
 - markdown-mode
 - multiple-cursors & smartrep
 - coffee-mode
 - ace-jump-mode
 - yasnippet
 - quickrun
+- vim-region
 
 ## Customize Key
 ```
 'global-map'
-C-;   other-window-or-split
 C-,   helm-mini
+C-;   other-window-or-split
 C-x j open-junk-file
+M-s   highlight-symbol (smartrep)
+        M-s   highlight-symbol-next
+        h     highlight-symbol-at-point
+        n     highlight-symbol-next
+        p     highlight-symbol-prev
+        N     highlight-symbol-prev
+        l     highlight-symbol-list-all
+        a     highlight-symbol-remove-all
+        o     highlight-symbol-occur
+        j     highlight-symbol-next-in-defun
+        k     highlight-symbol-prev-in-defun
+        r     highlight-symbol-query-replace
 
 'dired-mode'
 r     wdired-change-to-wdired-mode
