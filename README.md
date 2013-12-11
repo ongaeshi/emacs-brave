@@ -1,5 +1,7 @@
 # emacs-brave
 
+[Screenshot.gif]
+
 Modern Emacs distribution.
 
 It can be run in parallel with your `~/.emacs.d`.
@@ -13,22 +15,27 @@ It can be run in parallel with your `~/.emacs.d`.
 $ git clone https://github.com/ongaeshi/emacs-brave.git
 ```
 
-## Run
+## Parallel Run
 ```
 $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l init.el
 ```
+
+For M-x pacakge-install.
 
 ```
 $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ```
 
+## Use for ~/.emacs.d
+
 ## Packages
 - anzu
 - auto-complete
 - helm
 - init-loader
+- open-junk-file
 - popup
 - smartparens
 - wgrep
