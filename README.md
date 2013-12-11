@@ -39,6 +39,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - init-loader
 - js3-mode
 - open-junk-file
+- markdown-mode
 - popup
 - popwin
 - sass-mode
@@ -52,7 +53,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - color-moccur
 - moccur-edit
 - magit
-- markdown-mode
 - multiple-cursors & smartrep
 - coffee-mode
 - ace-jump-mode
