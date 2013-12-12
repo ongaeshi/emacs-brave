@@ -1,8 +1,3 @@
-;; Help
-;;
-;; Turotial
-;;   ‘F1 t’ or 'M-x help-with-tutorial'
-
 ;;------------------------------------------------------------------------------
 ;; load-path
 ;;------------------------------------------------------------------------------
@@ -22,3 +17,7 @@
 ;; (setq init-loader-show-log-after-init nil)
 (init-loader-load (locate-user-emacs-file "inits"))
 
+;; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;; Your setting area.
+;; emacs-brave don't write here.
