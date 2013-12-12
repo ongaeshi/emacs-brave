@@ -23,6 +23,8 @@
 (add-to-list 'helm-completing-read-handlers-alist '(find-file-at-point))
 (add-to-list 'helm-completing-read-handlers-alist '(write-file . nil))
 
+(push '("*helm mini*" :height 20) popwin:special-display-config)
+
 ;;------------------------------------------------------------------------------
 ;; anzu
 ;;------------------------------------------------------------------------------
