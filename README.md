@@ -65,8 +65,13 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 <f5>  quickrun
 
 C-,   helm-mini
+C-.   ff-find-other-file
 C-;   other-window-or-split
 C-@   vim-region
+C-c g goto-line
+C-c r revert-buffer
+C-c s sort-lines
+C-h   delete-backward-char
 C-x j open-junk-file
 
 C-M-c mc/edit-lines
@@ -86,8 +91,11 @@ C-t   multiple-cursors (smartrep)
         C-o     mc/sort-regions
         C-O     mc/reverse-regions
         
-M-j     ace-jump-mode
-M-J     ace-jump-mode-pop-mark
+M-g   grep
+M-h   help-for-help
+M-j   ace-jump-mode
+M-J   ace-jump-mode-pop-mark
+M-o   next-error
 
 M-s   highlight-symbol (smartrep)
         M-s   highlight-symbol-next

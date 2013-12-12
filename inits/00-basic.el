@@ -34,7 +34,8 @@
 (global-set-key (kbd "C-c g") 'goto-line)
 (global-set-key (kbd "C-;")   'other-window-or-split)
 (global-set-key (kbd "C-.")   'ff-find-other-file)
-(global-set-key (kbd "C-C r") 'revert-buffer)
+(global-set-key (kbd "C-c r") 'revert-buffer)
+(global-set-key (kbd "C-c s") 'sort-lines)
 
 ;;--------------------------------------------------------------------------
 ;; dired-x
