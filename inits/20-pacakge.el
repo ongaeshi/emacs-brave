@@ -90,3 +90,10 @@
 ;;--------------------------------------------------------------------------
 (require 'vim-region)
 (global-set-key (kbd "C-@") 'vim-region-mode)
+
+;;--------------------------------------------------------------------------
+;; quickrun
+;;--------------------------------------------------------------------------
+(require 'quickrun)
+(push '("*quickrun*" :stick t) popwin:special-display-config)
+(global-set-key (kbd "<f5>") 'quickrun)

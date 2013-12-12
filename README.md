@@ -42,6 +42,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - markdown-mode
 - popup
 - popwin
+- quickrun
 - sass-mode
 - scss-mode
 - smartparens
@@ -57,7 +58,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - multiple-cursors
 - ace-jump-mode
 - yasnippet
-- quickrun
 
 ## Customize Key
 ### global-map
