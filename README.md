@@ -30,6 +30,7 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 ## Use for ~/.emacs.d
 
 ## Packages
+- ace-jump-mode
 - anzu
 - auto-complete
 - coffee-mode
@@ -56,7 +57,6 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - color-moccur
 - moccur-edit
 - magit
-- ace-jump-mode
 - yasnippet
 
 ## Customize Key
@@ -85,6 +85,9 @@ C-t   multiple-cursors (smartrep)
         C-i     mc/insert-numbers
         C-o     mc/sort-regions
         C-O     mc/reverse-regions
+        
+M-j     ace-jump-mode
+M-J     ace-jump-mode-pop-mark
 
 M-s   highlight-symbol (smartrep)
         M-s   highlight-symbol-next

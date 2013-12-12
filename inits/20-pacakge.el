@@ -122,3 +122,9 @@
     ("C-o"        . 'mc/sort-regions)
     ("C-O"        . 'mc/reverse-regions)))
 
+;;--------------------------------------------------------------------------
+;; ace-jump-mode
+;;--------------------------------------------------------------------------
+(require 'ace-jump-mode)
+(global-set-key (kbd "M-j") 'ace-jump-mode)
+(global-set-key (kbd "M-J") 'ace-jump-mode-pop-mark)
