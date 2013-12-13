@@ -128,5 +128,6 @@
 ;; ace-jump-mode
 ;;--------------------------------------------------------------------------
 (require 'ace-jump-mode)
-(global-set-key (kbd "M-j") 'ace-jump-mode)
-(global-set-key (kbd "M-J") 'ace-jump-mode-pop-mark)
+(global-set-key (kbd "M-r") 'ace-jump-mode)
+(global-set-key (kbd "M-R") 'ace-jump-mode-pop-mark)
+
