@@ -93,9 +93,9 @@ C-t   multiple-cursors (smartrep)
         
 M-g   grep
 M-h   help-for-help
+M-j   ace-jump-mode
+M-J   ace-jump-mode-pop-mark
 M-o   next-error
-M-r   ace-jump-mode
-M-R   ace-jump-mode-pop-mark
 
 M-s   highlight-symbol (smartrep)
         M-s   highlight-symbol-next
