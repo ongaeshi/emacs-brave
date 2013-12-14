@@ -1,12 +1,12 @@
-# emacs-brave
+# Emacs Brave
 
 ![emacs-brave-01](http://cdn-ak.f.st-hatena.com/images/fotolife/t/tuto0621/20131214/20131214154001_original.png?1387003208)
 
 Modern Emacs distribution.
 
-It can be run in parallel with your `~/.emacs.d`.
+It can be test in parallel with your `~/.emacs.d`.
 
-## Test Emacs
+## My Emacs
 - [Mac] Cocoa Emacs 24.3
 - [Win] gnupack emacs-24.3-20130503
 
@@ -15,13 +15,13 @@ It can be run in parallel with your `~/.emacs.d`.
 $ git clone https://github.com/ongaeshi/emacs-brave.git
 ```
 
-## Parallel Run
+## Test Run
 ```
 $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l init.el
 ```
 
-## M-x pacakge-install
+## Use for M-x pacakge-install
 ```
 $ cd emacs-brave
 $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
