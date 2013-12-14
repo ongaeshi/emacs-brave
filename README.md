@@ -73,6 +73,7 @@ C-c r revert-buffer
 C-c s sort-lines
 C-h   delete-backward-char
 C-x j open-junk-file
+C-z   popwin:keymap
 
 C-M-c mc/edit-lines
 C-M-r mc/mark-all-in-region

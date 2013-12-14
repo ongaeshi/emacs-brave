@@ -7,23 +7,21 @@
 ;; popwin
 ;;--------------------------------------------------------------------------
 (require 'popwin)
-(setq display-buffer-function 'popwin:display-buffer)
-
+(popwin-mode 1)
+(global-set-key (kbd "C-z") popwin:keymap)
 (push '("*grep*" :height 20 :noselect t :stick t) popwin:special-display-config)
 
 ;;------------------------------------------------------------------------------
 ;; helm
 ;;------------------------------------------------------------------------------
 (require 'helm-config)
-
-(global-set-key (kbd "C-,") 'helm-mini)
-
 (helm-mode 1)
 ;; Function that doesn't use helm
 (add-to-list 'helm-completing-read-handlers-alist '(find-file-at-point))
 (add-to-list 'helm-completing-read-handlers-alist '(write-file . nil))
-
 (push '("*helm mini*" :height 20) popwin:special-display-config)
+(push '("*helm-mode-execute-extended-command*" :height 20) popwin:special-display-config)
+(global-set-key (kbd "C-,") 'helm-mini)
 
 ;;------------------------------------------------------------------------------
 ;; anzu
@@ -165,3 +163,5 @@
            (signal 'quit "user quit!"))))
      (custom-set-variables '(yas/prompt-functions '(my-yas/prompt)))
      (define-key helm-command-map (kbd "y") 'yas/insert-snippet)))
+
+(push '("*helm-mode-execute-extended-command*" :height 20) popwin:special-display-config)
