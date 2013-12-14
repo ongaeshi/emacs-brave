@@ -1,6 +1,6 @@
 # emacs-brave
 
-[Screenshot.gif]
+![emacs-brave-01](http://cdn-ak.f.st-hatena.com/images/fotolife/t/tuto0621/20131214/20131214154001_original.png?1387003208)
 
 Modern Emacs distribution.
 
