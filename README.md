@@ -52,12 +52,12 @@ $ emacs -Q -l set-user-emacs-directory.el -l minimum-package-install.el
 - vim-region
 - wgrep
 - yaml-mode
+- yasnippet
 
 ## TODO
 - color-moccur
 - moccur-edit
 - magit
-- yasnippet
 
 ## Customize Key
 ### global-map
